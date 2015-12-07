@@ -2,12 +2,12 @@
 namespace igogo5yo\rendermany;
 
 /**
- * RenderManyTrait
+ * RenderMany
  * Trait for Yii Framework 2 allows render many views
  * @author Ihor Skliar <skliar.ihor@gmail.com>
  * @version 1.2
  */
-trait RenderManyTrait {
+trait RenderMany {
     /**
      * @param $views array of views options
      * [
