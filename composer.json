@@ -1,5 +1,5 @@
 {
-  "name": "igogo5yo/yii2-rendermany",
+  "name": "igogo5yo/yii2-render-many",
   "description": "Yii Framework 2 extension for render many views in one action (best solution for landing pages or pages with many content blocks)",
   "keywords": [
     "render",
