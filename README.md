@@ -2,7 +2,7 @@
 RenderManyTrait for Yii Framework 2, allows render many views
 
 =====================================
-[![Latest Stable Version](https://poser.pugx.org/igogo5yo/yii2-rendermany/v/stable)](https://packagist.org/packages/igogo5yo/yii2-rendermany) [![Total Downloads](https://poser.pugx.org/igogo5yo/yii2-rendermany/downloads)](https://packagist.org/packages/igogo5yo/yii2-rendermany) [![License](https://poser.pugx.org/igogo5yo/yii2-rendermany/license)](https://packagist.org/packages/igogo5yo/yii2-rendermany) [![Dependency Status](https://www.versioneye.com/user/projects/55686ea96365320026021300/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55686ea96365320026021300)
+[![Latest Stable Version](https://poser.pugx.org/igogo5yo/yii2-rendermany/v/stable)](https://packagist.org/packages/igogo5yo/yii2-rendermany) [![Total Downloads](https://poser.pugx.org/igogo5yo/yii2-rendermany/downloads)](https://packagist.org/packages/igogo5yo/yii2-rendermany) [![License](https://poser.pugx.org/igogo5yo/yii2-rendermany/license)](https://packagist.org/packages/igogo5yo/yii2-rendermany) [![Dependency Status](https://www.versioneye.com/user/projects/56655361f376cc003d000a91/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56655361f376cc003d000a91)
 
 This is the upload file from url address extension for Yii 2. It have class UploadFromUrl for upload files from URL and it have FileFromUlrValidator for validate model attribute with file from url.
 
