@@ -1,4 +1,4 @@
-# yii2-rendermany
+# yii2-render-many
 Yii Framework 2 extension for render many views in one action (best solution for landing pages or pages with many content blocks)
 
 =====================================
@@ -17,13 +17,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer require --prefer-dist igogo5yo/yii2-rendermany
+php composer require --prefer-dist igogo5yo/yii2-render-many
 ```
 
 or add
 
 ```
-"igogo5yo/yii2-rendermany": ">=1.0"
+"igogo5yo/yii2-render-many": ">=1.0"
 ```
 
 to your `composer.json` file
