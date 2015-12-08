@@ -32,6 +32,7 @@ to your `composer.json` file
 Example
 ----
 
+use trait
 ```php
 ...
 class MyController extends Controller {
