@@ -2,7 +2,7 @@
 Yii Framework 2 extension for render many views in one action (best solution for landing pages or pages with many content blocks)
 
 =====================================
-[![Latest Stable Version](https://poser.pugx.org/igogo5yo/yii2-rendermany/v/stable)](https://packagist.org/packages/igogo5yo/yii2-rendermany) [![Total Downloads](https://poser.pugx.org/igogo5yo/yii2-rendermany/downloads)](https://packagist.org/packages/igogo5yo/yii2-rendermany) [![License](https://poser.pugx.org/igogo5yo/yii2-rendermany/license)](https://packagist.org/packages/igogo5yo/yii2-rendermany) [![Dependency Status](https://www.versioneye.com/user/projects/56655361f376cc003d000a91/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56655361f376cc003d000a91)
+[![Latest Stable Version](https://poser.pugx.org/igogo5yo/yii2-render-many/v/stable)](https://packagist.org/packages/igogo5yo/yii2-render-many) [![Total Downloads](https://poser.pugx.org/igogo5yo/yii2-render-many/downloads)](https://packagist.org/packages/igogo5yo/yii2-render-many) [![License](https://poser.pugx.org/igogo5yo/yii2-render-many/license)](https://packagist.org/packages/igogo5yo/yii2-render-many) [![Dependency Status](https://www.versioneye.com/user/projects/56655361f376cc003d000a91/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56655361f376cc003d000a91)
 
 This is the upload file from url address extension for Yii 2. It have class UploadFromUrl for upload files from URL and it have FileFromUlrValidator for validate model attribute with file from url.
 
