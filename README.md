@@ -1,4 +1,4 @@
-# yii2-render-many
+# RenderMany extension for Yii Framework 2
 
 [![Latest Stable Version](https://poser.pugx.org/igogo5yo/yii2-render-many/v/stable)](https://packagist.org/packages/igogo5yo/yii2-render-many) [![Total Downloads](https://poser.pugx.org/igogo5yo/yii2-render-many/downloads)](https://packagist.org/packages/igogo5yo/yii2-render-many) [![License](https://poser.pugx.org/igogo5yo/yii2-render-many/license)](https://packagist.org/packages/igogo5yo/yii2-render-many) [![Dependency Status](https://www.versioneye.com/user/projects/56655361f376cc003d000a91/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56655361f376cc003d000a91)
 
