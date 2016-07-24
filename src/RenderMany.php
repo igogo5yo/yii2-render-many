@@ -5,7 +5,7 @@ namespace igogo5yo\rendermany;
  * RenderMany
  * Trait for Yii Framework 2 allows render many views
  * @author Ihor Skliar <skliar.ihor@gmail.com>
- * @version 1.2
+ * @version 1.3
  */
 trait RenderMany {
     /**
@@ -20,7 +20,7 @@ trait RenderMany {
      *
      * @return string imploded views array
      */
-    public function renderMany(array $views) {
+    public function renderMany(array $views, $partial = false) {
         $renders = [];
         foreach ($views as $view => $params) {
             if (is_int($view) && is_string($params)) {
@@ -31,6 +31,15 @@ trait RenderMany {
             $renders[] = $this->renderPartial($view, $params);
         }
 
-        return $this->renderContent(implode("\r", $renders));
+        $html = implode("\r", $renders);
+
+        return $partial ? $html : $this->renderContent($html);
+    }
+
+    /**
+     * Alias for RenderMany::renderMany([], true);
+     */
+    public function renderManyPartial(array $views) {
+        return $this->renderMany($views, true);
     }
 }

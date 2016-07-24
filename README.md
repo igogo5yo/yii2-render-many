@@ -38,64 +38,75 @@ class MyController extends Controller {
     
     public function actionIndex()
     {
-        ...
         
         return $this->renderMany([
             'sliderSection' => [
-                'slides' => ['img1.jpg', 'img3.jpg', 'img3.jpg', ...]
+                'slides' => ['img1.jpg', 'img3.jpg', 'img3.jpg']
             ],
             'contentSection' => [
                 'title' => 'My post',
                 'description' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...',
-                ...
             ],
             'partnersSection' => [
                 'partners' => [
                     ['link' => '#', 'name' => 'partner 1'],
                     ['link' => '#', 'name' => 'partner 2'],
                     ['link' => '#', 'name' => 'partner 3'],
-                    ...
                 ]
             ],
-            ...
+            'footer' //without passing variables
         ]);
     }
-    
-    ...
 }
-...
 ```
 
 or extend your controller
 ```php
-...
+
 class MyController extends igogo5yo\rendermany\Controller {
     public function actionIndex()
     {
-        ...
         
         return $this->renderMany([
             'sliderSection' => [
-                'slides' => ['img1.jpg', 'img3.jpg', 'img3.jpg', ...]
+                'slides' => ['img1.jpg', 'img3.jpg', 'img3.jpg']
             ],
             'contentSection' => [
                 'title' => 'My post',
                 'description' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...',
-                ...
             ],
             'partnersSection' => [
                 'partners' => [
                     ['link' => '#', 'name' => 'partner 1'],
                     ['link' => '#', 'name' => 'partner 2'],
                     ['link' => '#', 'name' => 'partner 3'],
-                    ...
                 ]
             ],
-            ...
+            'footer' //without passing variables
         ]);
     }
-    
-    ...
 }
-...
+```
+
+also you can use partial rendering 
+```php
+    public function actionIndex()
+    {
+        
+        return $this->renderMany([
+            'sliderSection' => [
+                'slides' => ['img1.jpg', 'img3.jpg', 'img3.jpg']
+            ],
+            'wrapper' => [
+                'innerRenders' => $this->penderManyPartial([
+                    'innerView1' => [
+                        'param1' => 'some data 1'.
+                        'param2' => 'some data 2'
+                    ],
+                    'innerView2' //without passing variables
+                ])
+            ],
+            'footer' //without passing variables
+        ]);
+    }
 ```
