@@ -98,7 +98,7 @@ also you can use partial rendering
                 'slides' => ['img1.jpg', 'img3.jpg', 'img3.jpg']
             ],
             'wrapper' => [
-                'innerRenders' => $this->penderManyPartial([
+                'innerRenders' => $this->renderManyPartial([
                     'innerView1' => [
                         'param1' => 'some data 1'.
                         'param2' => 'some data 2'
